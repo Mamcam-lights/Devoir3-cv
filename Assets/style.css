@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: auto;
+}
+/*Mise en page des containers*/
+.entête{
+    display: flex;
+    flex-direction: row;
+    background-color: #17abb3;
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    width: 585px;
+    height: 800px;
+    padding-left: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e3e3;
+    width: 400px;
+    height: 800px;
+    padding-left: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #17abb3;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+/*Mise en place image*/
+.image{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #e3e3e3;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px 0px 25px 45px;
+}
+.image img{
+    overflow: hidden;
+    object-fit: cover;
+    width: 140%;
+    height: 100%;
+}
+.image:hover img{
+    transform: scale(1.2);
+}
+/*Mise en page entête*/
+.dev2{
+    line-height: 5px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.identite{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px 5px 300px;
+    color: #ffffff;
+}
+img:hover{
+    cursor: pointer;
+    color: #a3a1a1;
+    opacity: 2,5;
+}
+.lien{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Je n'ai pas reussi avec flex donc j'ai fais avec position*/
+.aligne1{
+    position: absolute;
+    margin: 90px 100px 10px 100px;
+    padding-left: 20px;
+}
